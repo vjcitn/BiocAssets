@@ -1,0 +1,55 @@
+---
+title: "Assets overview"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Assets overview}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+# Status dashboard
+
+See [the dev.status board](https://dev.status.bioconductor.org)
+
+The sources for this are [in github](https://github.com/bioconductor/status.bioconductor.org)
+
+The key action for establishing status is [here](https://github.com/Bioconductor/status.bioconductor.org/blob/main/.github/workflows/checks.yaml)
+
+This is all derived from cstate monitoring template.
+
+## Possible to-dos
+
+- verify that a container can run its binaries
+- randomized approach
+- check last date of build
+- source check, check bioconductor.org and cloudfront
+- BiocManager checking
+
+# Container production
+
+## Production
+Main action for container production is in [github](https://github.com/bioconductor/bioconductor_docker)
+
+Bottom up view
+
+basic [action](https://github.com/Bioconductor/bioconductor_docker/blob/devel/.github/workflows/build_containers.yaml)
+
+## Verification of products
+
+use docker pull and Rscript 
+
+Note that tag generation does execute the container and some functionality within
+
+In devel there was a mismatch to "release"+.1
+
+## Documentation
+### To-dos 
+- renovate https://bioconductor.org/help/docker/ to improve scope of coverage
+
