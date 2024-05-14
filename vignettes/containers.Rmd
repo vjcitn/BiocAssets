@@ -1,0 +1,24 @@
+---
+title: "Containers in Bioconductor"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Containers in Bioconductor}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+# Overview
+
+Bioconductor containers work with Docker, Singularity, podman,
+and possibly other container engines.  This document details
+the production, distribution, and maintenance of containers
+in the Bioconductor project.
+
+![snapshot](./extraRocker.png)

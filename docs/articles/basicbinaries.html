@@ -5,13 +5,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Assets overview • BiocAssets</title>
+<title>Basic binary production • BiocAssets</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="../bootstrap-toc.css">
 <script src="../bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="../pkgdown.css" rel="stylesheet">
-<script src="../pkgdown.js"></script><meta property="og:title" content="Assets overview">
+<script src="../pkgdown.js"></script><meta property="og:title" content="Basic binary production">
 <meta property="og:description" content="BiocAssets">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -87,68 +87,27 @@
 
       
 
-      </header><script src="BiocAssets_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
+      </header><script src="basicbinaries_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
-      <h1 data-toc-skip>Assets overview</h1>
+      <h1 data-toc-skip>Basic binary production</h1>
                         <h4 data-toc-skip class="author">Vincent J. Carey, stvjc at channing.harvard.edu</h4>
             
             <h4 data-toc-skip class="date">May 14, 2024</h4>
       
-      <small class="dont-index">Source: <a href="https://github.com/vjcitn/BiocAssets/blob/HEAD/vignettes/BiocAssets.Rmd" class="external-link"><code>vignettes/BiocAssets.Rmd</code></a></small>
-      <div class="hidden name"><code>BiocAssets.Rmd</code></div>
+      <small class="dont-index">Source: <a href="https://github.com/vjcitn/BiocAssets/blob/HEAD/vignettes/basicbinaries.Rmd" class="external-link"><code>vignettes/basicbinaries.Rmd</code></a></small>
+      <div class="hidden name"><code>basicbinaries.Rmd</code></div>
 
     </div>
 
     
     
 <div class="section level2">
-<h2 id="status-dashboard">Status dashboard<a class="anchor" aria-label="anchor" href="#status-dashboard"></a>
+<h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h2>
-<p>See <a href="https://dev.status.bioconductor.org" class="external-link">the dev.status board</a></p>
-<p>The sources for this are <a href="https://github.com/bioconductor/status.bioconductor.org" class="external-link">in github</a></p>
-<p>The key action for establishing status is <a href="https://github.com/Bioconductor/status.bioconductor.org/blob/main/.github/workflows/checks.yaml" class="external-link">here</a></p>
-<p>This is all derived from cstate monitoring template.</p>
-<div class="section level3">
-<h3 id="possible-to-dos">Possible to-dos<a class="anchor" aria-label="anchor" href="#possible-to-dos"></a>
-</h3>
-<ul>
-<li>verify that a container can run its binaries</li>
-<li>randomized approach</li>
-<li>check last date of build</li>
-<li>source check, check bioconductor.org and cloudfront</li>
-<li>BiocManager checking</li>
-</ul>
-</div>
-</div>
-<div class="section level2">
-<h2 id="container-production">Container production<a class="anchor" aria-label="anchor" href="#container-production"></a>
-</h2>
-<div class="section level3">
-<h3 id="production">Production<a class="anchor" aria-label="anchor" href="#production"></a>
-</h3>
-<p>Main action for container production is in <a href="https://github.com/bioconductor/bioconductor_docker" class="external-link">github</a></p>
-<p>Bottom up view</p>
-<p>basic <a href="https://github.com/Bioconductor/bioconductor_docker/blob/devel/.github/workflows/build_containers.yaml" class="external-link">action</a></p>
-</div>
-<div class="section level3">
-<h3 id="verification-of-products">Verification of products<a class="anchor" aria-label="anchor" href="#verification-of-products"></a>
-</h3>
-<p>use docker pull and Rscript</p>
-<p>Note that tag generation does execute the container and some functionality within</p>
-<p>In devel there was a mismatch to “release”+.1</p>
-</div>
-<div class="section level3">
-<h3 id="documentation">Documentation<a class="anchor" aria-label="anchor" href="#documentation"></a>
-</h3>
-<div class="section level4">
-<h4 id="to-dos">To-dos<a class="anchor" aria-label="anchor" href="#to-dos"></a>
-</h4>
-<ul>
-<li>renovate <a href="https://bioconductor.org/help/docker/" class="external-link uri">https://bioconductor.org/help/docker/</a> to improve scope of coverage</li>
-</ul>
-</div>
-</div>
+<p>As of 2024, Bioconductor containers are all ubuntu-based, following the lead of the <a href="https://rocker-project.org/" class="external-link">rocker project</a>.</p>
+<p>In general, compilation of packages to be used within such containers needs to happen only once; the binary package can be lodged in a web-accessible repository. Installation consists of retrieval, decompression, copying.</p>
+<p>This document details the method for producing and distributing binary packages for Bioconductor. This document does not address production of debian packages in the bioc2u project.</p>
 </div>
   </div>
 

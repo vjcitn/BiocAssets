@@ -1,0 +1,22 @@
+---
+title: "Bioconductor packages in WebAssembly"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Bioconductor packages in WebAssembly}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+# Overview
+
+The [WebR project](https://docs.r-wasm.org/webr/latest/)
+supports compilation of R packages to [WebAssembly](https://webassembly.org/) (WASM).
+A repository of Bioconductor packages compiled to WASM is available.
+This document describes their production and management.

@@ -1,0 +1,24 @@
+---
+title: "Debian binaries for Bioconductor software"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Debian binaries for Bioconductor software}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+# Overview
+
+The [r2u](https://github.com/eddelbuettel/r2u) project produces
+fully linked binaries of CRAN packages for use on Ubuntu systems.
+
+[bioc2u](https://github.com/bioconductor/bioc2u) extends this
+framework for Bioconductor software.  This document reviews
+related infrastructure and management processes.

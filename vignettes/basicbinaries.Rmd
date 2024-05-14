@@ -1,0 +1,29 @@
+---
+title: "Basic binary production"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Basic binary production}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+# Overview
+
+As of 2024, Bioconductor containers are all ubuntu-based, following
+the lead of the [rocker project](https://rocker-project.org/).
+
+In general, compilation of packages to be used within such containers
+needs to happen only once; the binary package can be lodged in a
+web-accessible repository.  Installation consists of retrieval,
+decompression, copying.
+
+This document details the method for producing and distributing
+binary packages for Bioconductor.  This document does not
+address production of debian packages in the bioc2u project.

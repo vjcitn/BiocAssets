@@ -1,0 +1,21 @@
+---
+title: "Bioconductor's workshop platform"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Bioconductor's workshop platform}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+# Overview
+
+Bioconductor's [workshop system](https://workshop.bioconductor.org) includes
+specifications for workshop authoring and deployment based on Galaxy
+infrastructure.
