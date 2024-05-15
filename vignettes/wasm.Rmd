@@ -17,8 +17,8 @@ output:
 # Overview
 
 The [WebR project](https://docs.r-wasm.org/webr/latest/)
-
-[Some documentation](https://github.com/bioconductor/webr-docs)
 supports compilation of R packages to [WebAssembly](https://webassembly.org/) (WASM).
 A repository of Bioconductor packages compiled to WASM is available.
 This document describes their production and management.
+
+[Some documentation](https://github.com/bioconductor/webr-docs)
