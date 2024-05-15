@@ -21,4 +21,11 @@ and possibly other container engines.  This document details
 the production, distribution, and maintenance of containers
 in the Bioconductor project.
 
+## AnVIL support
+
+The Rstudio and Bioconductor facilities for AnVIL on GCP are
+updated regularly:
+
+[History of production](https://github.com/anvilproject/anvil-docker/tree/main/anvil-rstudio-bioconductor)
+
 ![snapshot](./extraRocker.png)
